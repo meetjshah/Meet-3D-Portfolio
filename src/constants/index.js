@@ -31,6 +31,8 @@ import {
     threejs,
     Speedyrent,
     CNS_Spokebric,
+    aws,
+    aws_tech,
     
   } from "../assets";
   
@@ -121,6 +123,10 @@ import {
       name: "python",
       icon: python,
     },
+    {
+      name: "aws_tech",
+      icon: aws_tech,
+    },
   ];
   
   const experiences = [
@@ -163,19 +169,6 @@ import {
         "Improved the visual layout using HTML5/CSS, Bootstrap and Material UI which resulted in rise in client interest and interaction on website by 40-50%.",
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -205,6 +198,30 @@ import {
     },
   ];
   
+  const certifications = [
+    {
+      name: "AWS Cloud Quest: Cloud Practitioner",
+      description:
+        "This certification consisted of 12 real-life scenarios which required critical thinking to provide most efficient cloud solutions using amazon web services.",
+      tags: [
+        {
+          name: "aws",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cloud",
+          color: "green-text-gradient",
+        },
+        {
+          name: "amazonwebservices",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aws,
+      source_code_link: "https://www.credly.com/badges/9369af57-527b-4745-bea6-9895c0163a66/public_url",
+    },
+  ]
+
   const projects = [
     {
       name: "Speedy Rent",
@@ -275,4 +292,4 @@ import {
     // },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, certifications };
