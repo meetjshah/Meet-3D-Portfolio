@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -49,7 +49,21 @@ const Navbar = () => {
           </p>
         </Link>
 
+        {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open("https://www.linkedin.com/in/meetshah1997/", "_blank")}
+              className='black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={linkedin}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div> */}
+
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <a className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" onClick={() => window.open("https://www.linkedin.com/in/meetshah1997/", "_blank")}>LinkedIn</a>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -64,6 +78,7 @@ const Navbar = () => {
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <a className="mr-5 text-secondary hover:text-white text-[18px] font-medium cursor-pointer" href="https://www.linkedin.com/in/meetshah1997/">LinkedIn</a>
           <img
             src={toggle ? close : menu}
             alt='menu'

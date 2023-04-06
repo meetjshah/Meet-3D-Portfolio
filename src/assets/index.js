@@ -43,6 +43,8 @@ import CNS_Spokebric from "./CNS_Spokebric.jpg";
 
 import aws from "./aws.png";
 
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   backend,
@@ -83,5 +85,6 @@ export {
   Waaree,
   aws,
   credly,
-  aws_tech
+  aws_tech,
+  linkedin
 };
