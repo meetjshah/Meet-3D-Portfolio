@@ -123,10 +123,10 @@ import {
       name: "python",
       icon: python,
     },
-    {
-      name: "aws_tech",
-      icon: aws_tech,
-    },
+    // {
+    //   name: "aws_tech",
+    //   icon: aws_tech,
+    // },
   ];
   
   const experiences = [
