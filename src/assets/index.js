@@ -40,6 +40,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Speedyrent from "./Speedyrent.png";
 import CNS_Spokebric from "./CNS_Spokebric.jpg";
+import portfolio from "./portfolio.png";
 
 import aws from "./aws.png";
 
@@ -86,5 +87,6 @@ export {
   aws,
   credly,
   aws_tech,
-  linkedin
+  linkedin,
+  portfolio
 };

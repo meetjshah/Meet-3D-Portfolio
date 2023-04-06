@@ -33,6 +33,7 @@ import {
     CNS_Spokebric,
     aws,
     aws_tech,
+    portfolio
     
   } from "../assets";
   
@@ -247,6 +248,31 @@ import {
       ],
       image: Speedyrent,
       source_code_link: "https://github.com/meetjshah/Speedy_Rent",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "This was my portfolio which I developed to demonstrate my skills using frame motion and animations.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "sanity.io",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/meetjshah/meet-portfolio",
     },
     {
       name: "Spoke Bric",
