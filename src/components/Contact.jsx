@@ -36,9 +36,9 @@ const Contact = () => {
     // service_xmd13h7
     emailjs
       .send(
-        service_xmd13h7,
+        'service_xmd13h7',
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        template_ukwsi5x,
+        'template_ukwsi5x',
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
@@ -47,7 +47,7 @@ const Contact = () => {
           to_email: "meetjshah97@gmail.com",
           message: form.message,
         },
-        UuMIs_Fi7IQ1azBxe
+        'UuMIs_Fi7IQ1azBxe'
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
