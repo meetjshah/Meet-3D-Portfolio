@@ -132,7 +132,7 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer Intern",
+      title: "Angular Developer",
       company_name: "CyberInfrastructure for Netwrok Sciene Center(CNS)",
       icon: cns,
       iconBg: "#383E56",
@@ -252,7 +252,7 @@ import {
     {
       name: "Portfolio",
       description:
-        "This was my portfolio which I developed to demonstrate my skills using frame motion and animations.",
+        "A portfolio website which I developed to demonstrate my skills, experiences, projects using Next.js, Framer Motion, Tailwind CSS, React.",
       tags: [
         {
           name: "react",
@@ -267,7 +267,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "sanity.io",
+          name: "nextjs",
           color: "orange-text-gradient",
         },
       ],
