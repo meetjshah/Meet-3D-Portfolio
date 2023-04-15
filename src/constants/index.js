@@ -133,7 +133,7 @@ import {
   const experiences = [
     {
       title: "Angular Developer",
-      company_name: "CyberInfrastructure for Netwrok Sciene Center(CNS)",
+      company_name: "CyberInfrastructure for Network Science Center(CNS)",
       icon: cns,
       iconBg: "#383E56",
       date: "June 2022 - December 2022",
@@ -159,7 +159,7 @@ import {
     },
     {
       title: "Software Engineer Intern",
-      company_name: "Waaree Energeies Ltd",
+      company_name: "Waaree Energies Ltd",
       icon: Waaree,
       iconBg: "#383E56",
       date: "Nov 2020 - Mar 2021",
@@ -175,7 +175,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Meet proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -183,7 +183,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Meet does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -191,7 +191,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Meet optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
