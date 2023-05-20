@@ -63,6 +63,7 @@ const Navbar = () => {
           </div> */}
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <a className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" href="Meet_Shah_Resume.pdf" download={"Meet_Shah_Resume.pdf"}>Resume</a>  
         <a className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" onClick={() => window.open("https://www.linkedin.com/in/meetshah1997/", "_blank")}>LinkedIn</a>
           {navLinks.map((nav) => (
             <li
@@ -78,6 +79,7 @@ const Navbar = () => {
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <a className="mr-5 text-secondary hover:text-white text-[18px] font-medium cursor-pointer" href="Meet_Shah_Resume.pdf" download={"Meet_Shah_Resume.pdf"}>Resume</a>
         <a className="mr-5 text-secondary hover:text-white text-[18px] font-medium cursor-pointer" href="https://www.linkedin.com/in/meetshah1997/">LinkedIn</a>
           <img
             src={toggle ? close : menu}
