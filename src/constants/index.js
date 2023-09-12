@@ -33,7 +33,8 @@ import {
     CNS_Spokebric,
     aws,
     aws_tech,
-    portfolio
+    portfolio,
+    hazlnut
     
   } from "../assets";
   
@@ -131,6 +132,17 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Developer",
+      company_name: "Hazlnut LLC",
+      icon: hazlnut,
+      iconBg: "#E6DEDD",
+      date: "July 2023 - Present",
+      points: [
+        "Demonstrated effective project execution by completing end-to-end development of the chatbot within 65 days, resulting in a remarkable 35% increase in business growth and customer acquisition.",
+        "Engineered the chatbot with seamless integration of Voice Recognition and Chat Messaging capabilities for human-like conversations, generating valuable insights for enhanced business strategies."
+      ],
+    },
     {
       title: "Angular Developer",
       company_name: "CyberInfrastructure for Network Science Center(CNS)",
@@ -242,7 +254,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "firebase",
+          name: "expressjs",
           color: "orange-text-gradient",
         },
       ],
@@ -282,6 +294,10 @@ import {
         {
           name: "angular",
           color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "orange-text-gradient",
         },
         {
           name: "mysql",

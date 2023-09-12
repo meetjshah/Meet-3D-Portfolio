@@ -34,6 +34,7 @@ import tesla from "./company/tesla.png";
 import cns from "./company/cns.jpeg";
 import Waaree from "./company/Waaree.jpg";
 import IUB from "./company/IUB.png";
+import hazlnut from "./company/hazlnut.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -88,5 +89,6 @@ export {
   credly,
   aws_tech,
   linkedin,
-  portfolio
+  portfolio,
+  hazlnut
 };
