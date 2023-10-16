@@ -25,6 +25,7 @@ import {
     cns,
     IUB,
     Waaree,
+    Citizen,
     carrent,
     jobit,
     tripguide,
@@ -170,16 +171,27 @@ import {
       ],
     },
     {
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       company_name: "Waaree Energies Ltd",
       icon: Waaree,
       iconBg: "#383E56",
-      date: "Nov 2020 - Mar 2021",
+      date: "Nov 2020 - Jul 2021",
       points: [
         "Engineered a full stack website that provided centralized access by housing and compiling data into single branch database improving speed of query search by 30%.",
         "Developed a client-setup system from scratch, reducing manual efforts by 20%.",
         "Incorporated feedback mechanism using service rating portal which reduced customer grievance rate by 40%.",
         "Improved the visual layout using HTML5/CSS, Bootstrap and Material UI which resulted in rise in client interest and interaction on website by 40-50%.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Citizen Scales India Pvt Ltd",
+      icon: Citizen,
+      iconBg: "#E6DEDD#E6DEDD",
+      date: "Nov 2019 - Aug 2020",
+      points: [
+        "Solely responsible for designing, developing, and deploying new administrative functionality using ASP.Net with C#, MS SQL and jQuery - reducing nearly 80% of cost.",
+        "Automated over 40 hours of developer and QA work for document type creation using ASP.net and MS SQL scripts.",
       ],
     },
   ];
@@ -309,7 +321,7 @@ import {
         },
       ],
       image: CNS_Spokebric,
-      source_code_link: "",
+      source_code_link: "https://github.com/meetjshah",
     },
     // {
     //   name: "Trip Guide",

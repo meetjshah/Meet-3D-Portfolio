@@ -35,6 +35,7 @@ import cns from "./company/cns.jpeg";
 import Waaree from "./company/Waaree.jpg";
 import IUB from "./company/IUB.png";
 import hazlnut from "./company/hazlnut.png";
+import Citizen from "./company/Citizen.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -85,6 +86,7 @@ export {
   IUB,
   cns,
   Waaree,
+  Citizen,
   aws,
   credly,
   aws_tech,
