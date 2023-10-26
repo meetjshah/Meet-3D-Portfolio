@@ -141,7 +141,8 @@ import {
       date: "July 2023 - Present",
       points: [
         "Demonstrated effective project execution by completing end-to-end development of the chatbot within 65 days, resulting in a remarkable 35% increase in business growth and customer acquisition.",
-        "Engineered the chatbot with seamless integration of Voice Recognition and Chat Messaging capabilities for human-like conversations, generating valuable insights for enhanced business strategies."
+        "Leveraged React, Node.js, and Express.js to engineer a chatbot with integrated voice recognition and chat messaging capabilities, for natural conversations and generating valuable insights for enhanced business strategies.",
+        // "Engineered the chatbot with seamless integration of Voice Recognition and Chat Messaging capabilities for human-like conversations, generating valuable insights for enhanced business strategies."
       ],
     },
     {
@@ -178,22 +179,23 @@ import {
       date: "Nov 2020 - Jul 2021",
       points: [
         "Engineered a full stack website that provided centralized access by housing and compiling data into single branch database improving speed of query search by 30%.",
+        "Designed and implemented dashboard panels using React, optimizing database query speed through effective data caching and pagination strategies, enhancing overall system performance.",
         "Developed a client-setup system from scratch, reducing manual efforts by 20%.",
         "Incorporated feedback mechanism using service rating portal which reduced customer grievance rate by 40%.",
         "Improved the visual layout using HTML5/CSS, Bootstrap and Material UI which resulted in rise in client interest and interaction on website by 40-50%.",
       ],
     },
-    {
-      title: "Software Engineer",
-      company_name: "Citizen Scales India Pvt Ltd",
-      icon: Citizen,
-      iconBg: "#E6DEDD#E6DEDD",
-      date: "Nov 2019 - Aug 2020",
-      points: [
-        "Solely responsible for designing, developing, and deploying new administrative functionality using ASP.Net with C#, MS SQL and jQuery - reducing nearly 80% of cost.",
-        "Automated over 40 hours of developer and QA work for document type creation using ASP.net and MS SQL scripts.",
-      ],
-    },
+    // {
+    //   title: "Software Engineer",
+    //   company_name: "Citizen Scales India Pvt Ltd",
+    //   icon: Citizen,
+    //   iconBg: "#E6DEDD#E6DEDD",
+    //   date: "Nov 2019 - Aug 2020",
+    //   points: [
+    //     "Solely responsible for designing, developing, and deploying new administrative functionality using ASP.Net with C#, MS SQL and jQuery - reducing nearly 80% of cost.",
+    //     "Automated over 40 hours of developer and QA work for document type creation using ASP.net and MS SQL scripts.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
