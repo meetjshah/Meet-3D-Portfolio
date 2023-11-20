@@ -142,6 +142,8 @@ import {
       points: [
         "Demonstrated effective project execution by completing end-to-end development of the chatbot within 65 days, resulting in a remarkable 35% increase in business growth and customer acquisition.",
         "Leveraged React, Node.js, and Express.js to engineer a chatbot with integrated voice recognition and chat messaging capabilities, for natural conversations and generating valuable insights for enhanced business strategies.",
+        "Developed a Slackbot using Node.js, Express.js, MySQL, OpenAIAPI and DialogFlow for changing login details internally, eliminating task redundancy by 20%.",
+        "Built REST APIs for authentication and payment flows, ensuring secure integration of the chatbot and enhancing overall functionality."
         // "Engineered the chatbot with seamless integration of Voice Recognition and Chat Messaging capabilities for human-like conversations, generating valuable insights for enhanced business strategies."
       ],
     },
@@ -152,7 +154,8 @@ import {
       iconBg: "#383E56",
       date: "June 2022 - December 2022",
       points: [
-        "Designed a portal for a NSF-funded biomedical visualization project which displayed detailed analysis in form of graphs for biomedical researchers.",
+        // "Designed a portal for a NSF-funded biomedical visualization project which displayed detailed analysis in form of graphs for biomedical researchers.",
+        "Designed an interactive portal using Angular and Angular Material to display detailed analysis of biomedical data in the form of graphs, resulting in 12% increase in user engagement.",
         "Developed behavioral components and handled state management using NGXS improving flow of components by 15%.",
         "Implemented responsive design and ensured cross-browser compatibility.",
         "Participated in code reviews and provided constructive feedback to other developers.",
@@ -167,7 +170,7 @@ import {
       date: "Jan 2022 - May 2022",
       points: [
         "Served as a graduate teaching assistant for the course Software Engineering-I and helped students build websites with complex functionalities like Chatbot, Maps, Voice Recognition.",
-        "Assisted professor in articulating course structure into multiple stages which refined clarity of project requirements by 30%.",
+        "Assisted professor in articulating course structure into multiple stages which refined clarity of project requirements.",
         "Mentored students in planning various stages of project which reduced product delivery time by 15%.",
       ],
     },
@@ -178,11 +181,14 @@ import {
       iconBg: "#383E56",
       date: "Nov 2020 - Jul 2021",
       points: [
-        "Engineered a full stack website that provided centralized access by housing and compiling data into single branch database improving speed of query search by 30%.",
-        "Designed and implemented dashboard panels using React, optimizing database query speed through effective data caching and pagination strategies, enhancing overall system performance.",
+        // "Engineered a full stack website that provided centralized access by housing and compiling data into single branch database improving speed of query search by 30%.",
+        "Designed and implemented dashboard panels using React and Bootstrap, optimizing database query speed through effective data caching and pagination strategies, enhancing overall system performance.",
+        "Implemented automated data entry validation, that streamlined processes, resulting in a reduction of errors by 10%.",
+        "Collaborated with cross-functional teams for testing and implementing multiple microservices using Java, Spring Boot, and Docker that boosted application scalability by 15%.",
         "Developed a client-setup system from scratch, reducing manual efforts by 20%.",
-        "Incorporated feedback mechanism using service rating portal which reduced customer grievance rate by 40%.",
-        "Improved the visual layout using HTML5/CSS, Bootstrap and Material UI which resulted in rise in client interest and interaction on website by 40-50%.",
+        "Incorporated feedback mechanism using service rating portal which reduced customer grievance rate by 30%.",
+        "Developed automated scripts using Python and Selenium for web scraping to extract structured data and perform data manipulation tasks."
+        // "Improved the visual layout using HTML5/CSS, Bootstrap and Material UI which resulted in rise in client interest and interaction on website by 40-50%.",
       ],
     },
     // {
