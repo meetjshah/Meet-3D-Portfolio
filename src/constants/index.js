@@ -141,10 +141,13 @@ import {
       date: "July 2023 - Present",
       points: [
         "Demonstrated effective project execution by completing end-to-end development of the chatbot within 65 days, resulting in a remarkable 35% increase in business growth and customer acquisition.",
-        "Leveraged React, Node.js, and Express.js to engineer a chatbot with integrated voice recognition and chat messaging capabilities, for natural conversations and generating valuable insights for enhanced business strategies.",
-        "Developed a Slackbot using Node.js, Express.js, MySQL, OpenAIAPI and DialogFlow for changing login details internally, eliminating task redundancy by 20%.",
-        "Built REST APIs for authentication and payment flows, ensuring secure integration of the chatbot and enhancing overall functionality."
-        // "Engineered the chatbot with seamless integration of Voice Recognition and Chat Messaging capabilities for human-like conversations, generating valuable insights for enhanced business strategies."
+        "Designed a multi-channel AI ordering platform with React and Node.js, integrating a smart voice assistant with a conversational chatbot to automate phone and web orders, cutting manual workload by 65%.",
+        "Developed a low latency real-time voice pipeline using Twilio, PlayHT, and Deepgram with custom utterance end detection and interruption handling, significantly reducing transcription errors in noisy call environments.",
+        "Engineered a Slack based NLP automation workflow backed by Redis caching and recursive tool calling to apply menu and modifier changes, shortening configuration turnaround time by 40%.",
+        "Orchestrated a multi-agent reservation system using Python, LangGraph and React dashboards, interfacing with POS systems to standardize reservation intake and reduce manual data entry by 55%.",
+        "Automated Qdrant embedding workflows enabling semantic search across thousands of menu items.",
+        "Streamlined containerized services on AWS ECS with auto-scaling and health checks and engineered secure REST APIs for authentication and payments, increasing system reliability by 30%.",
+        "Implemented the chatbot with seamless integration of Voice Recognition and Chat Messaging capabilities for human-like conversations, generating valuable insights for enhanced business strategies."
       ],
     },
     {
