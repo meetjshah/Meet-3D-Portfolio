@@ -47,10 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Python,
+        {/* I'm a skilled software developer with experience in Python,
         JavaScript, and expertise in libraries/frameworks like React, Angular and Node.js. I'm also good with MongoDB, PostgreSQL and MySQL. I'm a quick learner and collaborate closely with team to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring the best ideas to life!
+        real-world problems. Let's work together to bring the best ideas to life! */}
+        I'm a software engineer specializing in backend systems, real time pipelines, 
+        and AI driven applications. My experience spans Python, TypeScript, Node.js, and React, 
+        along with distributed system design, Redis optimization, and microservice architectures. 
+        I've built multi agent LLM workflows, voice automation platforms, semantic search pipelines, and 
+        data driven dashboards using tools like LangGraph, Qdrant, PostgreSQL, and AWS ECS.
+
+        I enjoy solving complex engineering problems, improving system reliability, and collaborating with teams to deliver scalable, user focused solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
